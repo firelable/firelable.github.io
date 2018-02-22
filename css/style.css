@@ -1,0 +1,165 @@
+body {
+	m: 0;
+	font-family: 'Roboto';
+	font-size: 18px
+}
+img{
+	max-width: 100%
+}
+.footer-img{
+	width:15%;
+	padding 10px;
+}
+header{
+	padding-top: 59px;
+	padding-bottom: 22px;
+	background-color: #1157DB;
+	color: #fff;
+}
+
+.header-pretitel {
+	padding-top: 102px;
+	
+}
+.header-titel {
+	font-size: : 48px;
+	font-weight: 700;
+	margin-top:21px;
+	line-height: 36px
+}
+.header-aroundtitel{
+	
+	margin-top:20px;
+	}
+.header-button{
+	
+	box-shadow: 10px 17px 34px 6px rgba(18,61,145,0.83);
+	border-radius: 25px;
+	background-color: #ffffff;
+	color:#072B6F;
+	font-weight:700;
+	margin-top: 33px;
+	padding: 17px 55px 17px 55px;
+}
+header small{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+}
+.header-button-block{
+	max-width: 250px;
+	text-align: center;
+}
+
+
+.portfolio {
+	background-color: #dddddd;
+	padding: 44px 71px ;
+}
+.portfolio-block{
+	background-color: #ffffff;
+	padding: 44px 71px ;	
+}
+.portfolio-titel{
+	text-transform: uppercase;
+	color:#072b6f;
+	text-align: center;
+}
+.portfolio-subtitel{
+	text-align: center;
+	color:#7BB9FF;
+	padding-bottom:30px;
+}
+
+.portfolio-row-titel{
+	color:#072B6F;
+	text-transform: uppercase;
+
+	
+}
+.portfolio-text-row{
+	color:#8F8F8F;
+	text-align: left;
+	font-size: 16px;
+}
+footer{
+	background-color: #1157DB;
+	color: #fff;
+	padding-bottom: 110px;
+	padding-top: 60px;
+}
+.footer-button{
+	display: inline-block;
+	border-radius: 50px;
+	border:1px solid #ffffff;
+	background-color: transparent;
+	color:#fff;
+	font-size: 18px;
+	padding: 15px 40px;
+}
+.footer-col-3{
+	text-align: center;
+	padding-top: 8px;
+}
+.footer-titel  {
+	margin-bottom: 7px;
+	font-size: 24px;
+}
+.footer-subtitel  {
+	margin-top: 0px;
+	}
+.social-block{
+	text-align: center;
+}
+.social-block a{
+
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.footer-cta{
+	margin-bottom: 9px;
+}
+@media (max-width: 1200px){
+	.header-pretitel {
+	padding-top: 60px;
+	}
+}
+@media (max-width: 992px) {
+	.header-img{
+		display: none;
+	}
+	.header-pretitel {
+	padding-top: 60px;
+	}
+	.footer-titel{
+		font-size: 18px;
+	}
+	.footer-subtitel{
+		font-size: 14px;
+	}
+	.social-block a{
+		margin-left:5px;
+		margin-right:5px;
+	}
+	.footer-img{
+		width: 10%
+	}
+	.footer-button{
+		font-size: 14px;
+		padding:8px 35px;
+	}
+}
+@media(max-width: 768px){
+	.portfolio-col-1{
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom:  20px;
+	}
+	.portfolio-col-2{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	footer{
+		text-align: center;
+	}
+}
